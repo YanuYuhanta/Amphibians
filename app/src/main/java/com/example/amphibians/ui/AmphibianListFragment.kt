@@ -25,7 +25,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.amphibians.R
 import com.example.amphibians.databinding.FragmentAmphibianListBinding
 
-
+//TODO 8: Tampil ke View
 class AmphibianListFragment : Fragment() {
 
     private val viewModel: AmphibianViewModel by activityViewModels()
