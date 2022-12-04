@@ -26,6 +26,7 @@ import com.example.amphibians.ui.AmphibianListAdapter
 /**
  * function dibawah akan mengupdata data yang masuk dari jaringan internet
  */
+ //TODO 2: Data Binding
 @BindingAdapter("listData")
 fun bindRecyclerView(recyclerView: RecyclerView, data: List<Amphibian>?) {
     val adapter = recyclerView.adapter as AmphibianListAdapter
