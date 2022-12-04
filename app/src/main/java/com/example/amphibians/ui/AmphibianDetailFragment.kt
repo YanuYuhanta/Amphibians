@@ -24,7 +24,8 @@ import androidx.fragment.app.activityViewModels
 import com.example.amphibians.databinding.FragmentAmphibianDetailBinding
 
 /**
- * This Fragment shows the detailed information on a particular Amphibian
+ * class dibawah digunakan untuk membuat fragment yang akan menampilkan detail dari data yang terhubung dengan
+ * fragment_amphibian_detail.xml yang mencakut data nama dan deskripsi
  */
 class AmphibianDetailFragment : Fragment() {
 
