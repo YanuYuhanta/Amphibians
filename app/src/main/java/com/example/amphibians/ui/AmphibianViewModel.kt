@@ -25,6 +25,7 @@ import kotlinx.coroutines.launch
 
 enum class AmphibianApiStatus {LOADING, ERROR, DONE}
 
+//TODO 4 : ViewModel
 class AmphibianViewModel : ViewModel() {
     //variabel MutableLiveData pribadi yang dapat menyimpan enum AmphibianApiStatus
     // dan properti pendukung status untuk status ke _status.
