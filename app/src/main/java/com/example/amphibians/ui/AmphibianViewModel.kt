@@ -27,6 +27,7 @@ enum class AmphibianApiStatus {LOADING, ERROR, DONE}
 
 //TODO 4 : ViewModel
 class AmphibianViewModel : ViewModel() {
+    //TODO 3: LiveData
     //variabel MutableLiveData pribadi yang dapat menyimpan enum AmphibianApiStatus
     // dan properti pendukung status untuk status ke _status.
     private val _status = MutableLiveData<AmphibianApiStatus>()
