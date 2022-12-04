@@ -24,7 +24,7 @@ import com.example.amphibians.ui.AmphibianApiStatus
 import com.example.amphibians.ui.AmphibianListAdapter
 
 /**
- * Updates the data shown in the [RecyclerView]
+ * function dibawah akan mengupdata data yang masuk dari jaringan internet
  */
 @BindingAdapter("listData")
 fun bindRecyclerView(recyclerView: RecyclerView, data: List<Amphibian>?) {
@@ -33,10 +33,9 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<Amphibian>?) {
 }
 
 /**
- * This binding adapter displays the [AmphibianApiStatus] of the network request in an image view.
- * When the request is loading, it displays a loading_animation.  If the request has an error, it
- * displays a broken image to reflect the connection error.  When the request is finished, it
- * hides the image view.
+ * Pada function bindingAdapter akan menampilkan permintaan jaringan api untuk memproses data yang akan
+ * ditampilkan.
+ * saat permintaan data dimuat apiStatus LOADING akan bekerja dan jika terdapat error maka dta tidak akan ditampilkan
  */
 @BindingAdapter("apiStatus")
 fun bindStatus(statusImageView: ImageView, status: AmphibianApiStatus?) {
