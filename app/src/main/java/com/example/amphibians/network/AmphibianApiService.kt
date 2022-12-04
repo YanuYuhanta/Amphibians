@@ -21,6 +21,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
 
+// TODO 6 : Network API
 //variable untuk menyimpan URL dasar API
 private const val BASE_URL = "https://developer.android.com/courses/pathways/android-basics-kotlin-unit-4-pathway-2/"
 //object moshi dengan factory adapter kotlin yang digunakan retrofit untuk mengurai json
