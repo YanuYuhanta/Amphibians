@@ -32,6 +32,7 @@ private val retrofit = Retrofit.Builder()
     .build()
 
 //pengimplementasian interface dengan function suspend untuk mendapatkan daftar data amfibi
+//TODO 5: Repository
 interface AmphibianApiService {
     @GET("android-basics-kotlin-unit-4-pathway-2-project-api.json")
     suspend fun getAmphibians(): List<Amphibian>
