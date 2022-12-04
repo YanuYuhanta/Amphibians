@@ -30,9 +30,11 @@ import com.example.amphibians.network.Amphibian
 class AmphibianListAdapter(val clickListener: AmphibianListener) :
     ListAdapter<Amphibian, AmphibianListAdapter.AmphibianViewHolder>(DiffCallback) {
 
+    // pada class viewHolder akan mengimplementasikan data binding untuk menampilkan list data amfibi
     class AmphibianViewHolder(
         var binding: ListViewItemBinding
         ) : RecyclerView.ViewHolder(binding.root){
+        //pada function dibawah berfungsi untuk memproses jika subuah data pada recycleview diklik maka akan melanjukan ke detail fragment
         fun bind(clickListener: AmphibianListener, amphibian: Amphibian) {
             binding.amphibian = amphibian
             binding.clickListener = clickListener
