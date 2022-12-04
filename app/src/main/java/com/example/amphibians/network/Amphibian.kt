@@ -19,6 +19,7 @@ package com.example.amphibians.network
  * class Amphibian mendefinisikan data Amphibi dengan menyertakan nama dan deskripsinya
  * properti pada class digunakan moshi untuk mencocokan nama nilai di JSON
  */
+ //TODO 7: Data
 data class Amphibian(
     val name: String,
     val type: String,
